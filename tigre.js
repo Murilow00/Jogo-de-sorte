@@ -7,7 +7,12 @@
 
 
     //definindo o valor de cada slot de dinheiro
+async function Nda() {
 
+    for(let banca = 100; banca > 0; banca-=20){
+            num1 = Math.floor(Math.random()*10);
+            num2 = Math.floor(Math.random()*10);
+            num3 = Math.floor(Math.random()*10);
     switch(num1){
         case 0:
             num1 = "😛";
@@ -117,7 +122,9 @@
     }
 
 // Uma função para fazer essa pequena "animação"
-async function Nda() {
+
+
+
     if(num1 == num2 && num2 == num3){
 
      console.log(num1); await delay(1000);
@@ -134,7 +141,11 @@ async function Nda() {
      console.log("");
      console.log(`${num1} || ${num2} || ${num3}`); await delay(1000);
      console.log("TENDE NOVAMENTE 🤣🤣"); await delay(1000);
+
+
     
+
 }
 
-Nda();
+}
+ Nda();
