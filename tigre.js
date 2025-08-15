@@ -122,19 +122,18 @@ async function Nda() {
 
      console.log(num1); await delay(1000);
      console.log(num2); await delay(2000);
-     console.log(num3); await delay(2000);
-     console.log("")
-     console.log(`${num1} || ${num2} || ${num3}`);
-     console.log("GRANDE PREMIO 🔥");
-
+     console.log(num3); await delay(1000);
+     console.log("");
+     console.log(`${num1} || ${num2} || ${num3}`); await delay(1000);
+     console.log("GRANDE PREMIO 🔥"); await delay(1000);
     }else
 
      console.log(num1); await delay(1000);
      console.log(num2); await delay(2000);
-     console.log(num3); await delay(2000);
-     console.log("")
-     console.log(`${num1} || ${num2} || ${num3}`);
-     console.log("TENDE NOVAMENTE 🤣🤣");
+     console.log(num3); await delay(1000);
+     console.log("");
+     console.log(`${num1} || ${num2} || ${num3}`); await delay(1000);
+     console.log("TENDE NOVAMENTE 🤣🤣"); await delay(1000);
     
 }
 
